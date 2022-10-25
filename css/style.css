@@ -53,14 +53,20 @@ h1{
 }
 .categories{
     padding-bottom: 15px;
-}
-.right{
-    border: 1px solid lightgreen;
+} 
+.right,.wrong{
     border-radius: 50%;
-    color: lightgreen;
     font-size: 13px;
 }
-.editorial,.goals{
+.right{
+    color: lightgreen;
+    border: 1px solid lightgreen;
+}
+.wrong{
+    color: red;
+    border: 1px solid red;
+}
+.editorial,.goals,.recruiting,.mobile,.website,.sales{
     font-size: 9px;
     border-radius:50px;
     padding: 2px 5px ;
@@ -73,4 +79,24 @@ h1{
 .goals{
     background-color: rgb(153, 92, 209);
     border: 1px solid rgb(153, 92, 209);
+}
+.recruiting{
+    background-color: rgb(74, 161, 110);
+    border: 1px solid rgb(74, 161, 110);
+}
+.mobile{
+    background-color: orange;
+    border: 1px solid orange;
+}
+.website{
+    background-color: rgb(252, 102, 184);
+    border: 1px solid rgb(252, 102, 184)
+}
+.sales{
+    background-color: #82f34e;
+    border: 1px solid #82f34e;
+}
+.editorial{
+    background-color: orange;
+    border: 1px solid orange ;
 }
