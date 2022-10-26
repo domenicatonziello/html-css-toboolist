@@ -8,35 +8,89 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!--Intestazione-->
-    <header class="intestazione">
-        <img id="logo" src="img/Logo.png" alt="Logo">
-        <h1>Toboolist</h1>
-    </header>
-    <main class="container">
-        <header class="button-row">
-            <button id="task"> Add Task </button>
-            <button id="section"> Add Section </button>
-        </header>
-        <div class="new-task">
-            <h4 class="categories">&#x25BE; New Task </h4>
-            <p class="categories"> <span class="spunta right"> &#10004; </span> Quarterly Newsletter <span class="etichetta azzurro">Editorial</span> </p>
-        </div>
-        <div class="new-task">
-            <h4 class="categories">&#x25BE; Today </h4>
-            <p class="categories"> <span class="spunta right"> &#10004; </span> Recruiting blog post <span class="etichetta azzurro">Editorial</span> </p>
-            <p class="categories"> <span class="spunta right"> &#10004; </span> Mobile app launch <span class="etichetta viola">Q1-goals</span> </p>
-            <p class="categories"> <span class="spunta wrong"> &#10008; </span> Interview John H. <span class="etichetta verde"> Recruiting</span> </p>
-            <p class="categories"> <span class="spunta right"> &#10004; </span> Summit update to mobile storefronts <span class="etichetta arancione"> Mobile</span> </p>
-        </div>
-        <div class="new-task">
-            <h4 class="categories">&#x25BE; Upcoming </h4>
-            <p class="categories"> <span class="spunta wrong"> &#10008; </span> Schedule Meeting With Alex <span class="etichetta verde">Recruiting</span> </p>
-            <p class="categories"> <span class="spunta right"> &#10004; </span> Homepage Refresh <span class="etichetta rosa"> Website</span> </p>
-            <p class="categories"> <span class="spunta wrong"> &#10008; </span> Onboard new Sales team members  <span class="etichetta verde-acido"> Sales</span> </p>
-            <p class="categories"> <span class="spunta right"> &#10004; </span> Review editorial character <span class="etichetta arancione"> Editorial</span> </p>
-        </div>
-    </main>
-
+   <!--Intestazione-->
+   <header class="intestazione">
+      <img id="logo" src="img/Logo.png" alt="Logo">
+      <h1>Toboolist</h1>
+   </header>
+   <main class="container">
+      <header class="button-row">
+        <button id="task"> Add Task </button>
+         <button id="section"> Add Section </button>
+      </header>
+      <!--Lista-->
+      <div class="new-task">
+         <ul>
+            <li>
+               <h3 class="categories">&#x25BE; New Task </h3>
+               <ul>
+                  <li class="categories"> 
+                    <span class="spunta right"> &#10004; </span> 
+                     <span> Quarterly Newsletter </span>
+                    <span class="etichetta azzurro">Editorial</span> 
+                  </li>
+               </ul>
+            </li>
+         </ul>
+      </div>
+      <div class="new-task">
+         <ul>
+            <li>
+               <h3 class="categories">&#x25BE; Today </h3>
+               <ul>
+                  <li class="categories"> 
+                     <span class="spunta right"> &#10004; </span> 
+                     <span> Recruiting blog post </span>
+                     <span class="etichetta azzurro">Editorial</span> 
+                  </li>
+                  <li class="categories"> 
+                    <span class="spunta right"> &#10004; </span> 
+                    <span> Mobile app launch </span> 
+                    <span class="etichetta viola">Q1-goals</span> 
+                  </li>
+                  <li class="categories">
+                     <span class="spunta wrong"> &#10008; </span> 
+                     <span>Interview John H.</span> 
+                     <span class="etichetta verde"> Recruiting</span>
+                  </li>
+                  <li class="categories"> 
+                     <span class="spunta right"> &#10004; </span>
+                     <span> Summit update to mobile storefronts </span>
+                     <span class="etichetta arancione"> Mobile </span> 
+                  </li> 
+               </ul>
+            </li>
+         </ul>
+      </div>
+      <div class="new-task">
+         <ul>
+            <li>
+               <h3 class="categories">&#x25BE; Upcoming </h3>
+               <ul>
+                  <li class="categories"> 
+                     <span class="spunta wrong"> &#10008; </span> 
+                     <span> Schedule Meeting With Alex </span>
+                     <span class="etichetta verde">Recruiting</span> 
+                  </li>
+                  <li class="categories"> 
+                     <span class="spunta right"> &#10004; </span> 
+                     <span> Homepage Refresh </span> 
+                     <span class="etichetta rosa"> Website</span>
+                  </li>
+                  <li class="categories"> 
+                     <span class="spunta wrong"> &#10008; </span> 
+                     <span> Onboard new Sales team members </span>
+                     <span class="etichetta verde-acido"> Sales</span> 
+                  </li>
+                  <li class="categories"> 
+                     <span class="spunta right"> &#10004; </span> 
+                     <span> Review editorial character </span>
+                     <span class="etichetta arancione"> Editorial</span> 
+                  </li>
+               </ul>
+            </li>
+         </ul>
+      </div>
+   </main>
 </body>
 </html>
